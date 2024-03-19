@@ -1,7 +1,13 @@
+
 /*function suma (x,y){
     rs = x+y;
     return rs;
 }*/
+
+function suma (x,y,z){
+    rs = x+y+z;
+    return rs;
+}
 
 function resta (x,y){
     rr = x+y;
@@ -23,4 +29,4 @@ function potencia (x){
     return rpow;
 }
 
-module.exports={/*suma,*/ resta, producto, division, potencia}
+module.exports={suma, resta, producto, division, potencia}
