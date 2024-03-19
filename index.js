@@ -1,5 +1,5 @@
-function suma (x,y){
-    rs = x+y;
+function suma (x,y,z){
+    rs = x+y+z;
     return rs;
 }
 
